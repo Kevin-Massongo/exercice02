@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -112,27 +112,27 @@
 
 .banner .container p{
     position: absolute;
-    top: 80%;
-    right: 20%;
+    top: 65%;
+    right: 24%;
     color: white;
     font-size: 3rem;
 }
 
 .banner .container div{
     position: absolute;
-    top: 95%;
-    right: 35%;
+    top: 75%;
+    right: 36%;
     color: white;
     font-size: 1.2rem;
 }
 
 .banner .middle h2{
     position: absolute;
-    top: 150%;
+    top: 120%;
     left: 10%;
     color: white;
     font-size: 5rem;
-    max-width: 50%;
+    max-width: 40%;
     font-weight: bold;
     text-transform: uppercase;
 }
