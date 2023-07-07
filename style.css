@@ -96,50 +96,215 @@
     background-image: url(./image/banner.png);
     background-position: center;
     background-size: cover;
-    height: 300vh;
+    height: 350vh;
 }
 
-.banner .container h1{
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    color: white;
-    font-size: 5rem;
-    max-width: 50%;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.banner .container p{
-    position: absolute;
-    top: 65%;
-    right: 24%;
-    color: white;
-    font-size: 3rem;
-}
-
-.banner .container div{
-    position: absolute;
-    top: 75%;
-    right: 36%;
-    color: white;
-    font-size: 1.2rem;
-}
-
-.banner .middle h2{
-    position: absolute;
-    top: 120%;
-    left: 10%;
+.banner .one_part .head h1{
     color: white;
     font-size: 5rem;
     max-width: 40%;
     font-weight: bold;
     text-transform: uppercase;
 }
-.banner .middle h2 span{
+
+.banner .one_part .head p{
+    color: white;
+    font-size: 3rem;
+}
+
+.banner .one_part .head div{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.banner .middle h2{
+    color: white;
+    font-size: 4rem;
+    max-width: 30%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner span{
     color: #fb911f;
 }
+
+.banner .middle div{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.banner .middle p{
+    color: white;
+    font-size: 3rem;
+}
+
+.banner .middle p span{
+    font-weight: bold;
+}
+
+.banner a{
+    text-decoration: none;
+    color: #fb911f;
+    font-weight: bold;
+}
+
+/* ONE PART */
+
+.banner .footer h1{
+    color: white;
+    font-size: 3.5rem;
+    max-width: 40%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner .footer .delicious{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.banner .footer .paragraph{
+    color: white;
+    font-size: 1rem;
+    max-width: 20%;
+}
+
+
+.banner .footer div{
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* TWO PART */
+
+
+.banner .footer_two h1{
+    color: white;
+    font-size: 3rem;
+    max-width: 40%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner .footer_two p{
+    color: white;
+    font-size: 3rem;
+}
+
+.banner .footer_two div{
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* SECTION TWO */
+
+.two_part{
+    background-image: url(./image/section_two.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.box_image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.box_container{
+    margin: 40px 0;
+}
+
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text span{
+    color: #fb911f;
+    font-size: 2rem;
+}
 /* RESPONSIVE */
+
+
+@media screen and (max-width: 1024px) {
+    .banner .one_part .head h1{
+        position: absolute;
+        top: 30%;
+        right: 8%;
+        color: white;
+        font-size: 4rem;
+        max-width: 50%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .banner .one_part .head p{
+        position: absolute;
+        top: 60%;
+        right: 15%;
+        color: white;
+        font-size: 3rem;
+    }
+    .banner .one_part .head div{
+        position: absolute;
+        top: 72%;
+        right: 33%;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .banner .middle h2{
+        position: absolute;
+        top: 115%;
+        left: 10%;
+        color: white;
+        font-size: 4rem;
+        max-width: 50%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .banner .middle div{
+        position: absolute;
+        top: 155%;
+        left: 15%;
+        color: white;
+        font-size: 1.2rem;
+    }
+    
+    .banner .middle p{
+        position: absolute;
+        top: 145%;
+        left: 15%;
+        color: white;
+        font-size: 3rem;
+    }
+    .banner .footer div{
+        position: absolute;
+        top: 255%;
+        right: 20%;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .banner .footer .paragraph{
+        position: absolute;
+        top: 225%;
+        right: 10%;
+        color: white;
+        font-size: 1rem;
+        max-width: 30%;
+    }
+    
+}
 
 @media screen and (max-width: 768px) {
     .icon{
@@ -154,5 +319,248 @@
         width: 100%;
         margin: auto;
     }    
+    .banner .one_part .head h1{
+        position: absolute;
+        top: 30%;
+        right: 8%;
+        color: white;
+        font-size: 3rem;
+        max-width: 50%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .banner .one_part .head p{
+        position: absolute;
+        top: 53%;
+        right: 15%;
+        color: white;
+        font-size: 2rem;
+    }
+    .banner .one_part .head div{
+        position: absolute;
+        top: 60%;
+        right: 23%;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .banner .middle h2{
+        position: absolute;
+        top: 115%;
+        left: 10%;
+        color: white;
+        font-size: 3rem;
+        max-width: 50%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .banner .middle div{
+        position: absolute;
+        top: 147%;
+        left: 15%;
+        color: white;
+        font-size: 1.2rem;
+    }
+    
+    .banner .middle p{
+        position: absolute;
+        top: 140%;
+        left: 15%;
+        color: white;
+        font-size: 2rem;
+    }
+    .banner .footer h1{
+        position: absolute;
+        top: 200%;
+        right: 15%;
+        color: white;
+        font-size: 3rem;
+        max-width: 40%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .banner .footer .delicious{
+        position: absolute;
+        top: 215%;
+        right: 10%;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .banner .footer .paragraph{
+        position: absolute;
+        top: 225%;
+        right: 10%;
+        color: white;
+        font-size: 1rem;
+        max-width: 30%;
+    }
+    
+    
+    .banner .footer div{
+        position: absolute;
+        top: 268%;
+        right: 18%;
+        color: white;
+        font-size: 1rem;
+    }
+    .box_image img{
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .banner .footer_two h1{
+        position: absolute;
+        top: 300%;
+        left: 10%;
+        color: white;
+        font-size: 2.5rem;
+        max-width: 30%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .banner .footer_two p{
+        position: absolute;
+        top: 320%;
+        left: 15%;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .banner .footer_two div{
+        position: absolute;
+        top: 325%;
+        left: 15%;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner .one_part .head h1{
+        position: absolute;
+        top: 30%;
+        right: 8%;
+        color: white;
+        font-size: 2rem;
+        max-width: 50%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .banner .one_part .head p{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+        color: white;
+        font-size: 1.4rem;
+    }
+    .banner .one_part .head div{
+        position: absolute;
+        top: 50%;
+        right: 14%;
+        color: white;
+        font-size: 1rem;
+    }
+    .banner .middle h2{
+        position: absolute;
+        top: 115%;
+        left: 10%;
+        color: white;
+        font-size: 2rem;
+        max-width: 60%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .banner .middle p{
+        position: absolute;
+        top: 130%;
+        left: 15%;
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .banner .middle div{
+        position: absolute;
+        top: 135%;
+        left: 15%;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .box .nav li{
+        margin: 5px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner .footer h1{
+        position: absolute;
+        top: 200%;
+        right: 15%;
+        color: white;
+        font-size: 2.5rem;
+        max-width: 60%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .banner .footer .delicious{
+        position: absolute;
+        top: 210%;
+        right: 10%;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .banner .footer .paragraph{
+        position: absolute;
+        top: 218%;
+        right: 10%;
+        color: white;
+        font-size: 1rem;
+        max-width: 40%;
+    }
+    
+    
+    .banner .footer div{
+        position: absolute;
+        top: 280%;
+        right: 10%;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .box.open{
+        height: 140px;
+    }
+    .banner .footer_two h1{
+        position: absolute;
+        top: 300%;
+        left: 10%;
+        color: white;
+        font-size: 2rem;
+        max-width: 30%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .banner .footer_two p{
+        position: absolute;
+        top: 320%;
+        left: 15%;
+        color: white;
+        font-size: 1.3rem;
+    }
+    
+    .banner .footer_two div{
+        position: absolute;
+        top: 325%;
+        left: 15%;
+        color: white;
+        font-size: 1rem;
+    }
 }
 
